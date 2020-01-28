@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>National Park Service</origin>
+            <pubdate>20181004</pubdate>
+            <title>National Park Service Boundaries</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/services/ogc/wms?SERVICE=wms&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/services/ogc/wfs?SERVICE=wfs&amp;REQUEST=GetCapabilities&amp;VERSION=1.0.0</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.shp</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.original.zip</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.gml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.kml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.geojson</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.json</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.csv</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.xls</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/metadata/FGDC-STD-001-1998.xml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/metadata/FGDC-STD-001-1998.html</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/metadata/ISO-19115:2003.xml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/metadata/ISO-19115:2003.html</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>National Park Service unit boundaries.</abstract>
+         <purpose>Service wide boundary set for display and general analysis purposes.</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>20020201</begdate>
+               <begtime>Unknown</begtime>
+               <enddate>Present</enddate>
+               <endtime>Unknown</endtime>
+            </rngdates>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>Daily</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-170.72848129</westbc>
+            <eastbc>145.728386698</eastbc>
+            <northbc>68.655384858</northbc>
+            <southbc>-14.285582058</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>None</themekt>
+            <themekey>National Park Service</themekey>
+            <themekey>Boundary</themekey>
+            <themekey>National Parks</themekey>
+            <themekey>NPS</themekey>
+         </theme>
+         <theme>
+            <themekt>National Park Service Theme Category Thesaurus</themekt>
+            <themekey>Boundary</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>Boundaries</themekey>
+         </theme>
+         <place>
+            <placekt>Spatial Reference System Identifiers</placekt>
+            <placekey>EPSG:4269</placekey>
+            <placekey>EPSG:7019</placekey>
+         </place>
+         <place>
+            <placekt>National Park System Unit Name Thesaurus</placekt>
+            <placekey>National Parks</placekey>
+            <placekey>USA</placekey>
+            <placekey>Guam</placekey>
+            <placekey>American Samoa</placekey>
+            <placekey>Virgin Islands</placekey>
+            <placekey>Alaska</placekey>
+            <placekey>Hawaii</placekey>
+            <placekey>Continental US</placekey>
+            <placekey>United States</placekey>
+            <placekey>Department of Interior</placekey>
+            <placekey>National Park Service</placekey>
+            <placekey>NPS</placekey>
+            <placekey>DOI</placekey>
+            <placekey>GISD</placekey>
+            <placekey>All_NPS</placekey>
+            <placekey>ALAG</placekey>
+            <placekey>ANIA</placekey>
+            <placekey>ANTI</placekey>
+            <placekey>APCO</placekey>
+            <placekey>ARCH</placekey>
+            <placekey>ARHO</placekey>
+            <placekey>BELA</placekey>
+            <placekey>BLCA</placekey>
+            <placekey>BOHA</placekey>
+            <placekey>BRCR</placekey>
+            <placekey>BRVB</placekey>
+            <placekey>BUIS</placekey>
+            <placekey>BUFF</placekey>
+            <placekey>CABR</placekey>
+            <placekey>CACL</placekey>
+            <placekey>CAKR</placekey>
+            <placekey>CARL</placekey>
+            <placekey>CAVO</placekey>
+            <placekey>CAVE</placekey>
+            <placekey>CAWO</placekey>
+            <placekey>CASA</placekey>
+            <placekey>CATO</placekey>
+            <placekey>CEBE</placekey>
+            <placekey>CEBR</placekey>
+            <placekey>CHSC</placekey>
+            <placekey>CHIR</placekey>
+            <placekey>CHIS</placekey>
+            <placekey>CHPI</placekey>
+            <placekey>CHRI</placekey>
+            <placekey>CLBA</placekey>
+            <placekey>CUGA</placekey>
+            <placekey>DENA</placekey>
+            <placekey>DETO</placekey>
+            <placekey>ELMO</placekey>
+            <placekey>ELRO</placekey>
+            <placekey>FEHA</placekey>
+            <placekey>FILA</placekey>
+            <placekey>FLFO</placekey>
+            <placekey>FOFR</placekey>
+            <placekey>FOBO</placekey>
+            <placekey>FOSM</placekey>
+            <placekey>FOSU</placekey>
+            <placekey>FOTH</placekey>
+            <placekey>FOWA</placekey>
+            <placekey>FRDO</placekey>
+            <placekey>GAAR</placekey>
+            <placekey>GREE</placekey>
+            <placekey>GWMP</placekey>
+            <placekey>GICL</placekey>
+            <placekey>GLBA</placekey>
+            <placekey>GOGA</placekey>
+            <placekey>GRKO</placekey>
+            <placekey>GRSA</placekey>
+            <placekey>HAFE</placekey>
+            <placekey>HEHO</placekey>
+            <placekey>HOFR</placekey>
+            <placekey>HOME</placekey>
+            <placekey>HUTR</placekey>
+            <placekey>IATR</placekey>
+            <placekey>JAGA</placekey>
+            <placekey>JICA</placekey>
+            <placekey>JOTR</placekey>
+            <placekey>KATM</placekey>
+            <placekey>KEFJ</placekey>
+            <placekey>KEMO</placekey>
+            <placekey>KICA</placekey>
+            <placekey>KLGO</placekey>
+            <placekey>KOVA</placekey>
+            <placekey>LACL</placekey>
+            <placekey>LAME</placekey>
+            <placekey>LIBI</placekey>
+            <placekey>LYBA</placekey>
+            <placekey>MABE</placekey>
+            <placekey>MACA</placekey>
+            <placekey>MALU</placekey>
+            <placekey>MANA</placekey>
+            <placekey>MEVE</placekey>
+            <placekey>MOJA</placekey>
+            <placekey>MONO</placekey>
+            <placekey>NATC</placekey>
+            <placekey>NACA</placekey>
+            <placekey>NISI</placekey>
+            <placekey>NOAT</placekey>
+            <placekey>ORPI</placekey>
+            <placekey>OZAR</placekey>
+            <placekey>PAIS</placekey>
+            <placekey>PEFO</placekey>
+            <placekey>PIRO</placekey>
+            <placekey>PISC</placekey>
+            <placekey>PISP</placekey>
+            <placekey>PORE</placekey>
+            <placekey>RRBH</placekey>
+            <placekey>SAMO</placekey>
+            <placekey>SAND</placekey>
+            <placekey>SARI</placekey>
+            <placekey>SCBL</placekey>
+            <placekey>SEQU</placekey>
+            <placekey>SITK</placekey>
+            <placekey>SUCR</placekey>
+            <placekey>THIS</placekey>
+            <placekey>TICA</placekey>
+            <placekey>TONT</placekey>
+            <placekey>TUPE</placekey>
+            <placekey>TUAI</placekey>
+            <placekey>TUMA</placekey>
+            <placekey>TUZI</placekey>
+            <placekey>VAFO</placekey>
+            <placekey>VOYA</placekey>
+            <placekey>WABA</placekey>
+            <placekey>WAPA</placekey>
+            <placekey>WHIS</placekey>
+            <placekey>WHSA</placekey>
+            <placekey>WHMI</placekey>
+            <placekey>WICA</placekey>
+            <placekey>WOTR</placekey>
+            <placekey>WRST</placekey>
+            <placekey>WUPA</placekey>
+            <placekey>YOSE</placekey>
+            <placekey>YUHO</placekey>
+            <placekey>YUCH</placekey>
+            <placekey>GIS Division</placekey>
+            <placekey>Alagnak Wild River</placekey>
+            <placekey>Aniakchak National Monument and Preserve</placekey>
+            <placekey>Antietam National Battlefield</placekey>
+            <placekey>Appomattox Court House National Historical Park</placekey>
+            <placekey>Arches National Park</placekey>
+            <placekey>Arlington House / The Robert E. Lee National Memorial</placekey>
+            <placekey>Bering Land Bridge National Preserve</placekey>
+            <placekey>Black Canyon Of The Gunnison National Park</placekey>
+            <placekey>Boston Harbor Islands National Recreation Area</placekey>
+            <placekey>Brices Cross Roads National Battlefield Site</placekey>
+            <placekey>Brown v. Board Of Education National Historic Site</placekey>
+            <placekey>Buck Island Reef National Monument</placekey>
+            <placekey>Buffalo National River</placekey>
+            <placekey>Castle Clinton National Monument</placekey>
+            <placekey>Cape Krusenstern National Monument</placekey>
+            <placekey>Carl Sandburg Home National Historic Site</placekey>
+            <placekey>Capulin Volcano National Monument</placekey>
+            <placekey>Carlsbad Caverns National Park</placekey>
+            <placekey>Carter G. Woodson Home National Historic Site</placekey>
+            <placekey>Castillo De San Marcos National Monument</placekey>
+            <placekey>Catoctin Mountain Park</placekey>
+            <placekey>Cedar Creek and Belle Grove National Historical Park</placekey>
+            <placekey>Cedar Breaks National Monument</placekey>
+            <placekey>Central High School National Historic Site</placekey>
+            <placekey>Chiricahua National Monument</placekey>
+            <placekey>Channel Islands National Park</placekey>
+            <placekey>Charles Pinckney National Historic Site</placekey>
+            <placekey>Christiansted National Historic Site</placekey>
+            <placekey>Clara Barton National Historic Site</placekey>
+            <placekey>Cumberland Gap National Historical Park</placekey>
+            <placekey>Denali National Park and Preserve</placekey>
+            <placekey>Devils Tower National Monument</placekey>
+            <placekey>El Morro National Monument</placekey>
+            <placekey>Eleanor Roosevelt National Historic Site</placekey>
+            <placekey>Federal Hall National Memorial</placekey>
+            <placekey>First Ladies National Historic Site</placekey>
+            <placekey>Florissant Fossil Beds National Monument</placekey>
+            <placekey>Fort Frederica National Monument</placekey>
+            <placekey>Fort Bowie National Historic Site</placekey>
+            <placekey>Fort Smith National Historic Site</placekey>
+            <placekey>Fort Sumter National Monument</placekey>
+            <placekey>Ford&amp;apos;s Theatre National Historic Site</placekey>
+            <placekey>Fort Washington Park</placekey>
+            <placekey>Frederick Douglass National Historic Site</placekey>
+            <placekey>Gates Of The Arctic National Park and Preserve</placekey>
+            <placekey>Greenbelt Park</placekey>
+            <placekey>George Washington Memorial Parkway</placekey>
+            <placekey>Gila Cliff Dwellings National Monument</placekey>
+            <placekey>Glacier Bay National Park and Preserve</placekey>
+            <placekey>Golden Gate National Recreation Area</placekey>
+            <placekey>Grant-Kohrs Ranch National Historic Site</placekey>
+            <placekey>Great Sand Dunes National Park and Preserve</placekey>
+            <placekey>Harpers Ferry National Historical Park</placekey>
+            <placekey>Herbert Hoover National Historic Site</placekey>
+            <placekey>Home Of Franklin D. Roosevelt National Historic Site</placekey>
+            <placekey>Homestead National Monument of America</placekey>
+            <placekey>Hubbell Trading Post National Historic Site</placekey>
+            <placekey>Ice Age National Scenic Trail</placekey>
+            <placekey>James A. Garfield National Historic Site</placekey>
+            <placekey>Jimmy Carter National Historic Site</placekey>
+            <placekey>Joshua Tree National Park</placekey>
+            <placekey>Katmai National Park and Preserve</placekey>
+            <placekey>Kenai Fjords National Park</placekey>
+            <placekey>Kennesaw Mountain National Battlefield Park</placekey>
+            <placekey>Kings Canyon National Park</placekey>
+            <placekey>Klondike Gold Rush National Historical Park</placekey>
+            <placekey>Kobuk Valley National Park</placekey>
+            <placekey>Lake Clark National Park and Preserve</placekey>
+            <placekey>Lake Mead National Recreation Area</placekey>
+            <placekey>Little Bighorn Battlefield National Monument</placekey>
+            <placekey>Lyndon Baines Johnson Memorial Grove on the Potomac
+					NationalMemorial</placekey>
+            <placekey>Mary McLeod Bethune Council House National Historic Site</placekey>
+            <placekey>Mammoth Cave National Park</placekey>
+            <placekey>Martin Luther King, Jr National Historic Site</placekey>
+            <placekey>Manassas National Battlefield Park</placekey>
+            <placekey>Mesa Verde National Park</placekey>
+            <placekey>Mojave National Preserve</placekey>
+            <placekey>Monocacy National Battlefield</placekey>
+            <placekey>Natchez National Historical Park</placekey>
+            <placekey>Ninety Six National Historic Site</placekey>
+            <placekey>Noatak National Preserve</placekey>
+            <placekey>Organ Pipe Cactus National Monument</placekey>
+            <placekey>Ozark National Scenic Riverways</placekey>
+            <placekey>Padre Island National Seashore</placekey>
+            <placekey>Petrified Forest National Park</placekey>
+            <placekey>Pictured Rocks National Lakeshore</placekey>
+            <placekey>Piscataway Park</placekey>
+            <placekey>Pipe Spring National Monument</placekey>
+            <placekey>Point Reyes National Seashore</placekey>
+            <placekey>Ronald Reagan Boyhood Home National Historic Site</placekey>
+            <placekey>Santa Monica Mountains National Recreation Area</placekey>
+            <placekey>Sand Creek Massacre National Historic Site</placekey>
+            <placekey>Salt River Bay National Historical Park and Ecological Preserve</placekey>
+            <placekey>Scotts Bluff National Monument</placekey>
+            <placekey>Sequoia National Park</placekey>
+            <placekey>Sitka National Historical Park</placekey>
+            <placekey>Sunset Crater Volcano National Monument</placekey>
+            <placekey>Theodore Roosevelt Island National Memorial</placekey>
+            <placekey>Timpanogos Cave National Monument</placekey>
+            <placekey>Tonto National Monument</placekey>
+            <placekey>Tupelo National Battlefield</placekey>
+            <placekey>Tuskegee Airman National Historic Site</placekey>
+            <placekey>Tumacacori National Historical Park</placekey>
+            <placekey>Tuzigoot National Monument</placekey>
+            <placekey>Valley Forge National Historical Park</placekey>
+            <placekey>Voyageurs National Park</placekey>
+            <placekey>Washita Battlefield National Historic Site</placekey>
+            <placekey>War In The Pacific National Historical Park</placekey>
+            <placekey>Whiskeytown National Recreation Area</placekey>
+            <placekey>White Sands National Monument</placekey>
+            <placekey>Whitman Mission National Historic Site</placekey>
+            <placekey>Wind Cave National Park</placekey>
+            <placekey>Wolf Trap National Park for the Performing Arts</placekey>
+            <placekey>Wrangell - St Elias National Park and Preserve</placekey>
+            <placekey>Wupatki National Monument</placekey>
+            <placekey>Yosemite National Park</placekey>
+            <placekey>Yucca House National Monument</placekey>
+            <placekey>Yukon - Charley Rivers National Preserve</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>The data is intended for use as a tool for display and general GIS analysis
+			purposes only. It is in no way intended for engineering or legal purposes. The data
+			accuracy is checked against best available sources which may be dated. NPS assumes no
+			liability for use of this data. Boundaries from the Land Resources Division have
+			separate polygons for each type of unit. For example Denali National Park and Denali
+			National Preserve are separate individual polygons.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>National Park Service</cntorg>
+            </cntorgp>
+            <cntpos>Chief Cartographer</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>301 S. Howes St. Suite 208</address>
+               <city>Fort Collins</city>
+               <state>CO</state>
+               <postal>80522</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>Unknown</cntvoice>
+            <cntemail>roger_m_johnson@nps.gov</cntemail>
+            <hours>M-Th 7-5:30 Mountain Time</hours>
+         </cntinfo>
+      </ptcontac>
+      <datacred>National Park Service</datacred>
+      <native>Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog
+			9.3.1.1850</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>The data is being regularly updated with verified boundaries from NPS Land
+				Resources Division.</attraccr>
+      </attracc>
+      <logic>Polygon topology present.</logic>
+      <complete>The data set is complete but subject to continual updates to reflect boundary
+			amendments, legislation, and acquisitions, and improved processing techniques. The data
+			is being regularly updated with verified boundaries from NPS Land Resources Division.
+			Please contact the data originator with corrections and update suggestions.</complete>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Dean Tucker, Water Resource Division</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>NPSUnits</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>Park boundaries collected and digitized for the Horizon
+							Project.</othercit>
+                  <onlink>n/a</onlink>
+               </citeinfo>
+            </srccite>
+            <srcscale>9999</srcscale>
+            <typesrc>paper</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>20000101</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication Date</srccurr>
+            </srctime>
+            <srccitea/>
+            <srccontr>Source map</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>David Duran, GIS Division</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>ParkDave</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>Park boundaries collected from Parks and Regions in
+							2001.</othercit>
+               </citeinfo>
+            </srccite>
+            <srcscale>9999</srcscale>
+            <typesrc>Paper</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>20000101</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Publication Date</srccurr>
+            </srctime>
+            <srccitea>Unknown</srccitea>
+            <srccontr>Unknown</srccontr>
+         </srcinfo>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>Roger Johnson</origin>
+                  <pubdate>Unknown</pubdate>
+                  <title>Unit Classification Boundaries</title>
+                  <geoform>vector digital data</geoform>
+                  <othercit>Land Resources Division has been creating hardcopy segment maps
+							containing boundary data since the 1960's. This data is currently being
+							converted to a digital vector format and added to the collection as it
+							become available. Additionally as existing boundary data is modified
+							and/or new parks units units are acquired they are added to the
+							collection.</othercit>
+               </citeinfo>
+            </srccite>
+            <srcscale>9999</srcscale>
+            <typesrc>onLine</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>20010101</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>Most current data available within the stated time period.</srccurr>
+            </srctime>
+            <srccitea>Shapefile</srccitea>
+            <srccontr>Unknown</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>Boundary polygons for several units were verified data from the Lands
+					Resources Division (LRD) according to the procedures defined in the Lands
+					Acquisition Procedures Manual Chapter 5. Boundary data from LRD has separate
+					polygons for individual types of units like Denali National Park and Denali
+					National Preserve. Lands records in the dataset that can be identified by
+					querying for [GIS_Notes] = "Lands" in the attribute table. These parks include:
+					Abraham Lincoln Birthplace National Historic Site (ABLI), African Burial Ground
+					National Monument (AFBG), Alagnak Wild River (ALAG), Alibates Flint Quarries
+					National Monument (ALFL), Andrew Johnson National Historic Site (ANJO),
+					Aniakchak National Monument and Preserve (ANIA), Antietam National Battlefield
+					(ANTI), Appomattox Court House National Historical Park (APCO), Arches National
+					Park (ARCH), Arlington House - Robert E. Lee Memorial (ARHO), Aztec Ruins
+					National Monument (AZRU), Badlands National Park (BADL), Bering Land Bridge
+					National Preserve (BELA), Black Canyon of the Gunnison National Park (BLCA),
+					Boston Harbor Islands National Recreation Area (BOHA), Bryce Canyon National
+					Park (BRCA), Brices Cross Roads National Battlefield Site (BRCR), Brown v Board
+					of Education National Historic Site (BRVB), Buck Island Reef National Monument
+					(BUIS). Buffalo National River (BUFF), Cabrillo National Monument (CABR),
+					Canaveral National Seashore (CANA), Cane River Creole National Historical Park
+					(CARI), Carl Sandburg Home (CARL), Cape Krusenstern National Monument (CAKR),
+					Capulin Volcano National Monument (CAVO), Carlsbad Caverns National Park (CAVE),
+					Carter G. Woodson National Historic Site (CAWO), Castillo de San Marcos National
+					Monument (CASA), Castle Clinton Monument (CACL), Catoctin Mountain Park (CATO),
+					Cedar Breaks National Monument (CEBR), Cedar Creek and Belle Grove (CEBE),
+					Charles Pinckney National Historic Site (CHPI), Chiricahua National Monument
+					(CHIR), Chamizal National Memorial (CHAM), Channel Islands National Park (CHIS),
+					Christiansted National Historic Site (CHRI), Clara Barton National Historic Site
+					(CLBA), Cumberland Gap National Historical Park (CUGA), Cuyahoga Valley National
+					Park (CUVA), Denali National Park (DENA), De Soto National Memorial (DESO),
+					Devils Postpile National Monument (DEPO), Devils Tower National Monument (DETO),
+					Dry Tortugas National Park (DRTO), Effigy Mounds National Monument (EFMO), El
+					Morro National Mounment (ELMO), Eleanor Roosevelt National Historic Site (ELRO),
+					Federal Hall National Memorial (FEHA), First Ladies National Historic Site
+					(FILA), Flight 93 National Memorial (FLNI), Florissant Fossil Beds (FLFO),
+					Ford's Theatre National Historic Site (FOTH), Fort Bowie National Historic Site
+					(FOBO), Fort Davis National Historic Site (FODA), Fort Frederica National
+					Monument (FOFR), Fort Smith National Historic Site (FOSM), Fort Sumter National
+					Monument (FOSU), Fort Union National Monument (FOUN), Fort Union Trading Post
+					National Historic Site (FOUS), Fort Washington Park (FOWA), Fossil Butte
+					National Monument (FOBU), Frederick Douglass National Historic Site (FRDO),
+					Gates of the Arctic National Park (GAAR), General Grant National Memorial
+					(GEGR), George Washington Carver National Monument (GWCA), Greenbelt Park
+					(GREE),George Washington Memorial Parkway (GWMP), Gila Cliff Dwellings National
+					Monument (GICL), Glacier Bay National Park (GLBA), Golden Gate National
+					Recreation Area (GOGA), Governors Island National Monument (GOIS), Grant-Kohrs
+					Ranch National Historic Site (GRKO), Great Sand Dunes National Park and Preserve
+					(GRSA), Hamilton Grange National Memorial (HAGR), Harpers Ferry National
+					Historical Park (HAFE), Hawai'i Volcanoes National Park (HAVO), Herbert Hoover
+					National Historic Site (HEHO), Home of Franklin D Roosevelt National Historic
+					Site (HOFR), Homestead National Monument (HOME), Hot Springs National Park
+					(HOSP), Hovenweep National Monument (HOVE), Hubbell Trading Post National
+					Historic Site (HUTR), Ice Age National Scenic Trail (IATR), Indiana Dunes
+					National Lakeshore (INDU), James A Garfield National Historic Site (JAGA), Jean
+					Lafitte National Historical Park and Preserve (JELA), Jimmy Carter National
+					Historic Site (JICA), John D. Rockefeller, Jr. Memorial Parkway (JODR), Joshua
+					Tree National Park (JOTR), Kaloko-Honokohau National Historical Park (KAHO),
+					Katmai National Park (KATM), Kenai Fjords National Park (KEFJ), Kennesaw
+					Mountain National Battlefield Park (KEMO), Keweenaw National Historical Park
+					(KEWE), Kings Canyon National Park (KICA), Klondike Gold Rush National
+					Historical Park (KLGO), Knife River Indian Villages National Historic Site
+					(KNRI), Kobuk Valley National Park (KOVA), Lake Clark National Park (LACL), Lake
+					Mead National Recreation Area (LAME), Lassen Volcanic National Park (LAVO),
+					Lincoln Boyhood National Memorial (LIBO), Lincoln Home National Historic Site
+					(LIHO), Little Rock Central High School National Historic Site (CHSC), Lava Bed
+					National Monument (LABE), Little Bighorn Battlefield National Monument (LIBI),
+					Lyndon Baines Johnson Memorial Grove (LYBA), Mammoth Cave National Park (MACA),
+					Manassas National Battlefield Park (MANA), Manzanar National Historic Site
+					(MANZ), Martin Luther King Jr. National Historic Site (MALU), Mesa Verde
+					National Park (MEVE), Mary McLeod Bethune Council House National Historic Site
+					(MABE), Minute Man National Historical Park (MIMA), Minuteman Missile National
+					Historic Site (MIMI), Mojave National Preserve (MOJA), Monocacy National
+					Battlefield (MONO), Montezuma Castle National Monument (MOCA), Mount Rushmore
+					National Memorial (MORU), Natchez National Historical Park (NATC), National
+					Capital Parks (NACA), Nicodemus National Historic Site (NICO), Ninety Six
+					National Historic Site (NISI), Noatak National Preserve (NOAT), Organ Pipe
+					Cactus National Monument (ORPI), Ozark National Scenic Riverway (OZAR), Padre
+					Island National Seashore (PAIS), Palo Alto Battlefield National Historic Site
+					(PAAL), Petrified Forest National Park (PEFO), Pictured Rocks National Lakeshore
+					(PIRO), Pipe Spring Nationam Monument (PISP), Pipestone National Monument
+					(PIPE), Piscataway Park (PISC), Point Reyes National Seashore (PORE), Pu'uhonua
+					o Honaunau National Historical Park (PUHO), Pu'ukohola Heiau National Historic
+					Site (PUHE), Ronald Reagan Boyhood Home National Historic Site (RRBH), Salt
+					River Bay National Historical Park (SARI), Saint Paul's Church National Historic
+					Site (SAPA), Santa Monica Mountains National Recreation Area (SAMO), Sand Creek
+					Massacre National Historic Site (SAND), Scotts Bluff National Mounment (SCBL),
+					Sequoia National Park (SEQU), Sitka National Historical Park (SITK), Sunset
+					Crater Volcano National Monument (SUCR), Tallgrass Prairie National Preserve
+					(TAPR), Theodore Roosevelt National Park (THRO), Theodore Roosevelt Birthplace
+					National Historic Site (THRB), Theodore Roosevelt Island National Memorial
+					(THIS), Timpanogos Cave National Monument (TICA), Tonto National Monument
+					(TONT), Tumacacori National Historical Park (TUMA), Tupelo National Battlefield
+					(TUPE), Tuskegee Airmen National Historic Site (TUAI), Tuzigoot National
+					Monument (TUZI), Ulysses S. Grant National Historic Site (ULSG), Valley Forge
+					National Historical Park (VAFO), Virgin Islands Coral Reef National
+					Monument(VICR), Voyageurs National Park (VOYA), Walnut Canyon National Monument
+					(WACA). War in the Pacific National Historical Park (WAPA), Washita Battlefield
+					National Historic Site (WABA), White Sands National Monument (WHSA), Whitman
+					Mission National Historic Site (WHMI), Whiskeytown-Shasta-Trinity National
+					Recreation Area (WHIS), Wilson's Creek National Battlefield (WICR), Wind Cave
+					National Park (WICA), Wolf Trap Farm Park (WOTR), Wrangell-St. Elias National
+					Park (WRST), Wupatki National Monument (WUPA), Yellowstone National Park (YELL),
+					Yosemite National Park (YOSE), Yucca House National Monument (YUHO),
+					Yukon-Charley Rivers (YUCH), Zion National Park (ZION)</procdesc>
+            <procdate>20050601</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>National Park Service</cntorg>
+                  </cntorgp>
+                  <cntpos>Land Resources Division Chief Cartographer</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>301 S. Howes St. Suite 208</address>
+                     <city>Fort Collins</city>
+                     <state>CO</state>
+                     <postal>80522</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>Unknown</cntvoice>
+                  <cntemail>PPFL_LandsNET@NPS.GOV</cntemail>
+                  <hours>M-F 7:30-5:00 Mountain Time</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Two sets of boundaries were collected and compared. The main set was
+					obtained from David Duran, who collected boundaries from each region in the
+					summer of 2001. The second set was obtained from Dean Tucker, who digitized
+					boundaries for the Horizon Project. The main set from David Duran was determined
+					to contain the most recent boundary information. Parks missing from David's set
+					were added from Deans set. Those parks are..........Antietam NB Arlington
+					House,Benjamin Franklin NMEM, Big Hole NB, Catoctin Mountain Park, Chesapeake
+					and Ohio Canal NHP, Chimney Rock NHS, Fort Point NHS, Fredericksburg NC, George
+					Washington Memorial Parkway, Green Springs, Harpers Ferry NHP, International
+					Peace Garden, John F. Kennedy Center for the Performing Arts, Kalaupapa NHP,
+					Manassas NBP, McLoughlin House NHS, Monocacy NB, National Capital Parks -
+					Central and East, Olympic NP, Prince William Forest Park, Rock Creek Park, San
+					Francisco Maritime NHP, Thaddeus Kosciuszko NMEM, and Wolf Trap Farm Park for
+					the Performing Arts. Park/Region staff were consulted for parks with major
+					differences between the two sets.</procdesc>
+            <procdate>2002</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>National Park Service</cntorg>
+                  </cntorgp>
+                  <cntpos>GIS Specialist/Cooperator</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing and physical address</addrtype>
+                     <address>1201 Oakridge Drive Suite 200</address>
+                     <city>Fort Collins</city>
+                     <state>CO</state>
+                     <postal>80525</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>Unknown</cntvoice>
+                  <cntemail>waso-nrpc_nrgis@nps.gov</cntemail>
+                  <hours>M-F 8-5 Mountain Time</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Dataset copied.</procdesc>
+            <procdate>Unknown</procdate>
+         </procstep>
+         <procstep>
+            <procdesc>Boundaries were updated with data provided by National Parks or Regional
+					Offices.</procdesc>
+            <procdate>Unknown</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>Unknown</indspref>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>510</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.00000001</latres>
+            <longres>0.00000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+                <horizdn>North American Datum of 1983</horizdn>
+                <ellips>Geodetic Reference System 80</ellips>
+                <semiaxis>6378137.000000</semiaxis>
+                <denflat>298.257222</denflat>
+            </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>nps_boundary</enttypl>
+            <enttypd>Feature Class</enttypd>
+            <enttypds>National Park Service</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GIS_Loc_ID</attrlabl>
+            <attrdef>Primary key for linking geospatial objects with other database
+					systems.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Unit_Code</attrlabl>
+            <attrdef>Four letter code to define the National Park unit.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Group_Code</attrlabl>
+            <attrdef>Four letter code to define administration of the National Park
+					unit.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Unit_Name</attrlabl>
+            <attrdef>Name of the National Park unit.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Unit_Type</attrlabl>
+            <attrdef>Type of unit boundary (i.e. Park, Preserve, Memorial,Monument...)</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Meta_MIDF</attrlabl>
+            <attrdef>Foregin key to link the primary key and metadata record in NR-GIS Data
+					Store.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Lands_Code</attrlabl>
+            <attrdef>Unique alpha-numeric string use by LRD to tract the geospatial
+					object.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Text</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Date_Edit</attrlabl>
+            <attrdef>The last update or offical review of the object</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>date</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>GIS_Notes</attrlabl>
+            <attrdef>Free text.</attrdef>
+            <attrdefs>NPS</attrdefs>
+            <attrdomv>
+               <udom>Free text</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The material on this site is made available as a public service. Maps and data are to be used for reference purposes only and the Earth Data Analysis Center (EDAC), Resource Geographic Information System (RGIS) and The University of New Mexico are not responsible for any inaccuracies herein contained. No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. Unless otherwise indicated in the documentation (metadata) for individual data sets, information on this site is public domain and may be copied without permission; citation of the source is appreciated.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+               <transize>16</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.original.zip</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI Shapefile (shp)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.shp</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.gml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>KML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.kml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GeoJSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.geojson</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>JSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.json</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Comma Separated Values (csv)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.csv</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>MS Excel format (xls)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/558fe3fb-5a6a-4728-bdfa-53f40543d7e8/nps_boundary.derived.xls</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <custom>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</custom>
+      <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd>20200128</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>

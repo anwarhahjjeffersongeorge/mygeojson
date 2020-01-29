@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>U.S. Department of Interior, Bureau of Land Management (BLM)</origin>
+            <pubdate>20190306</pubdate>
+            <title>BLM NLCS Wilderness Area Polygons</title>
+            <geoform>vector digital data</geoform>
+            <othercit>This is an aggregate national dataset. Source data were received from all or some of the
+BLM state offices of Alaska, Arizona, California, Colorado, Eastern States, Idaho, Montana, Nevada,
+New Mexico, Oregon/Washington, Utah, and Wyoming.</othercit>
+            <onlink>https://navigator.blm.gov/home</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/services/ogc/wms?SERVICE=wms&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/services/ogc/wfs?SERVICE=wfs&amp;REQUEST=GetCapabilities&amp;VERSION=1.0.0</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.shp</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.original.zip</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.gml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.kml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.geojson</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.json</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.csv</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.xls</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/metadata/FGDC-STD-001-1998.xml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/metadata/FGDC-STD-001-1998.html</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/metadata/ISO-19115:2003.xml</onlink>
+            <onlink>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/metadata/ISO-19115:2003.html</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This polygon feature class represents the spatial extent and boundaries of BLM National
+Landscape Conservation System (NLCS) Wilderness Areas.</abstract>
+         <purpose>This polygon feature class represents the spatial extent and boundaries of BLM National
+Landscape Conservation System (NLCS) Wilderness Areas. A Wilderness is a special place where the
+earth and its community of life are essentially undisturbed; they retain a primeval character,
+without permanent improvements and generally appear to have been affected primarily by the forces of
+nature. In 1964, Congress established the National Wilderness Preservation System and designated the
+first Wilderness Areas in passing the Wilderness Act. The uniquely American idea of wilderness has
+become an increasingly significant tool to ensure long-term protection of natural landscapes.
+Wilderness protects the habitat of numerous wildlife species and serves as a biodiversity bank for
+many species of plants and animals. Wilderness is also a source of clean water.</purpose>
+         <supplinf>A published revision of the Department Manual’s Part 305: Departmental Science Effects,
+Chapter 3: Integrity of Scientific and Scholarly Activities (305 DM 3), effective December 16, 2014,
+is available online at http://elips.doi.gov/ELIPS/DocView.aspx?id=4056. Scholarly information
+considered in Departmental decision making must be robust, of the highest quality, and the result of
+as rigorous scientific and scholarly processes as can be achieved. Most importantly, it must be
+trustworthy. This policy helps us to achieve that standard
+(http://www.doi.gov/scientificintegrity/index.cfm). Each state office has a Data Steward or Contact
+Person for this data. Please contact the specific state office for additional information on their
+state dataset.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2018</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>Publication date.</current>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-108.195970086</westbc>
+            <eastbc>-104.388395529</eastbc>
+            <northbc>36.393764052</northbc>
+            <southbc>34.574826589</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>boundaries</themekey>
+         </theme>
+         <theme>
+            <themekt>BLM</themekt>
+            <themekey>Bureau of Land Management</themekey>
+            <themekey>Wilderness</themekey>
+            <themekey>Recreation</themekey>
+            <themekey>Public Lands</themekey>
+            <themekey>Management</themekey>
+            <themekey>BLM</themekey>
+            <themekey>Jurisdiction</themekey>
+            <themekey>Withdrawal</themekey>
+            <themekey>Geospatial</themekey>
+         </theme>
+         <theme>
+            <themekt>BLM-THEME</themekt>
+            <themekey>Management</themekey>
+            <themekey>Fire</themekey>
+            <themekey>Wilderness</themekey>
+            <themekey>Wildlife</themekey>
+            <themekey>Forest</themekey>
+            <themekey>Authorizations</themekey>
+            <themekey>Hydrology</themekey>
+         </theme>
+         <place>
+            <placekt>BLM-STATE</placekt>
+            <placekey>New Mexico</placekey>
+         </place>
+         <place>
+            <placekt>None</placekt>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+      <accconst>These are data made available to the public and are considered public domain. These data
+contain no sensitive information which would be prevented from disclosure by Freedom of Information
+Act (FOIA), the Privacy Act or other laws.</accconst>
+      <useconst>These data are provided by BLM "as is" and may contain errors or omissions. The User
+assumes the entire risk associated with its use of these data and bears all responsibility in
+determining whether these data are fit for the User's intended use. The information contained in
+these data is dynamic and may change over time. The data are not better than the original sources
+from which they were derived, and both scale and accuracy may vary across the data set. These data
+may not have the accuracy, resolution, completeness, timeliness, or other characteristics
+appropriate for applications that potential users of the data may contemplate. The User is
+encouraged to carefully consider the content of the metadata file associated with these data. These
+data are neither legal documents nor land surveys, and must not be used as such. Official records
+may be referenced at most BLM offices. Please report any errors in the data to the BLM office for
+which it was obtained. The BLM should be cited as the data source in any products derived from these
+data. Any Users wishing to modify the data should describe the types of modifications they have
+performed. The User should not misrepresent the data, nor imply that changes made were approved or
+endorsed by BLM. This information may be updated without notification.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Bureau of Land Management, LLNM930</cntorg>
+               <cntper>State Data Steward</cntper>
+            </cntorgp>
+            <cntpos>Outdoor Recreation Planner</cntpos>
+            <cntaddr>
+               <addrtype>physical address</addrtype>
+               <address>301 Dinosaur Trail</address>
+               <city>Santa Fe</city>
+               <state>NM</state>
+               <postal>87508</postal>
+               <country>United States</country>
+            </cntaddr>
+            <cntvoice>505-954-2000</cntvoice>
+            <cntemail>blm_nm_comments@blm.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <browse>
+         <browsen>NLCS_Wilderness_Areas_2018.zip</browsen>
+         <browsed>BLM NLCS Wilderness Area Polygons</browsed>
+         <browset>application/zip</browset>
+      </browse>
+      <datacred>BLM Admin State</datacred>
+      <native>Esri ArcGIS 10.1.1.3143</native>
+   </idinfo>
+   <dataqual>
+      <attracc>
+         <attraccr>This national dataset is an aggregation from multiple datasets provided by the BLM
+            Administrative States, please contact the distributor for additional information on provenance,
+            history, accuracy and quality of the data. The accuracy of attributes in this dataset reflects that
+            of the source datasets. Attribute accuracy was tested by validating attribute coded values against
+            accepted domain values, checking that alpha-numeric values followed a valid format, and checking
+            that numeric values were greater than zero.</attraccr>
+      </attracc>
+      <logic>This national dataset is an aggregation from multiple datasets provided by the BLM
+Administrative States, please contact the distributor for additional information on provenance,
+history, accuracy and quality of the data. The logical consistency of this dataset reflects that of
+the source datasets. Each source dataset is run through a series of tests to verify that the data
+complies with the format specified in the Data Standard. ERRORS AND INCONSISTENCIES MAY STILL BE
+PRESENT IN THE DATA. These tests were conducted using ESRI ArcMap 10.1. The tests consisted of
+checking coded values for attributes against a domain of accepted values, checking that
+alpha-numeric values followed a valid format, and checking that numeric values were greater than
+zero. For the geometry, the topology was validated; however overlaps and gaps can still be
+found.</logic>
+      <complete>This national dataset is an aggregation from multiple datasets provided by the BLM
+Administrative States, please contact the distributor for additional information on provenance,
+history, accuracy and quality of the data. The completeness of this dataset reflects that of the
+source datasets.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>This national dataset is an aggregation from multiple datasets provided by the BLM
+                Administrative States, please contact the distributor for additional information on provenance,
+                history, accuracy and quality of the data. The positional accuracy across this dataset varies
+                according to the source.</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <srcinfo>
+            <srccite>
+               <citeinfo>
+                  <origin>U.S. Department of Interior, Bureau of Land Management (BLM)</origin>
+                  <pubdate>20141205</pubdate>
+                  <title>H-1283-2 Data Administration and Management Handbook</title>
+                  <edition>Release 1-1762</edition>
+                  <onlink>http://web.blm.gov/internal/wo-500/directives/dir-hdbk/h1283-2.pdf</onlink>
+               </citeinfo>
+            </srccite>
+            <typesrc>online</typesrc>
+            <srctime>
+               <timeinfo>
+                  <sngdate>
+                     <caldate>20141205</caldate>
+                  </sngdate>
+               </timeinfo>
+               <srccurr>publication date</srccurr>
+            </srctime>
+            <srccitea>NLCSWild</srccitea>
+            <srccontr>This official BLM Data Management handbook contains information about how data is
+            administered, managed, and tracked. This handbook discusses how the BLM operates with regard to data
+            development and design, quality, metadata, and business rules. The information this resource
+            contains also pertains to geospatial data.</srccontr>
+         </srcinfo>
+         <procstep>
+            <procdesc>Using the implementation guidelines, GIS staff at BLM field and state offices cross-walk
+and clean up their data to comply with the standardized national dataset. Then, the BLM field and/or
+state offices submit the data to the National Operations Center (NOC), where it is compiled to
+produce seamless national datasets. This process of data replication to the National Operations
+Center is intended to occur on a monthly basis.</procdesc>
+            <procdate>Unknown</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Bureau of Land Management - New Mexico State Office</cntorg>
+                     <cntper>State GIS Manager</cntper>
+                  </cntorgp>
+                  <cntpos>Geosciences Team Lead</cntpos>
+                  <cntaddr>
+                     <addrtype>physical address</addrtype>
+                     <address>301 Dinosaur Trail</address>
+                     <city>Santa Fe</city>
+                     <state>NM</state>
+                     <postal>87508</postal>
+                     <country>United States</country>
+                  </cntaddr>
+                  <cntvoice>505-954-2000</cntvoice>
+                  <cntemail>blm_nm_comments@blm.gov</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>New Mexico</indspref>
+   </spdoinfo>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>nlcs_wld_poly</enttypl>
+            <enttypd>BLM NLCS Wilderness Area Polygons</enttypd>
+            <enttypds>National Landscape Conservation System (NLCS) Implementation Guidelines</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NLCS_ID</attrlabl>
+            <attrdef>The designed primary key that will uniquely identify a single occurrence of the entity. The
+primary key for NLCS will be 10 digits. The first four will be “NLCS” and the last six digits will
+be a sequential number.</attrdef>
+            <attrdefs>National Landscape Conservation System (NLCS) Implementation Guidelines</attrdefs>
+            <attrdomv>
+               <udom>NLCS ID</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NLCS_NAME</attrlabl>
+            <attrdef>The official name of the NLCS area. The name of a nationally significant designated area
+with scientific, cultural, educational, ecological and other values.</attrdef>
+            <attrdefs>National Landscape Conservation System (NLCS) Implementation Guidelines</attrdefs>
+            <attrdomv>
+               <udom>NLCS Name</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CASEFILE_N</attrlabl>
+            <attrdef>Case file number</attrdef>
+            <attrdefs>National Landscape Conservation System (NLCS) Implementation Guidelines</attrdefs>
+            <attrdomv>
+               <udom>Case file number</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>ADMIN_ST</attrlabl>
+            <attrdef>An alphabetic abbreviation that represents each of the 50 states of the United States, the
+District of Columbia, the outlying areas of the United States, and associated areas. FIPS PUB
+5-2</attrdef>
+            <attrdefs>National Landscape Conservation System (NLCS) Implementation Guidelines</attrdefs>
+            <attrdomv>
+               <codesetd>
+                  <codesetn>DOM_ADMIN_ST</codesetn>
+                  <codesets>National Landscape Conservation System (NLCS) Implementation Guidelines</codesets>
+               </codesetd>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>DESIG_DATE</attrlabl>
+            <attrdef>The date on which a national landscape conservation unit was designated as such through
+Congress or other authorized body.</attrdef>
+            <attrdefs>National Landscape Conservation System (NLCS) Implementation Guidelines</attrdefs>
+            <attrdomv>
+               <udom>Date designated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_area</attrlabl>
+            <attrdef>Area of feature in internal units squared.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape_len</attrlabl>
+            <attrdef>Length of feature in internal units squared.</attrdef>
+            <attrdefs>Esri</attrdefs>
+            <attrdomv>
+               <udom>Positive real numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+      <overview>
+         <eaover>See the National Landscape Conservation System (NLCS) Implementation Guidelines.</eaover>
+         <eadetcit>Unknown</eadetcit>
+      </overview>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The material on this site is made available as a public service. Maps and data are to be used for reference purposes only and the Earth Data Analysis Center (EDAC), Resource Geographic Information System (RGIS) and The University of New Mexico are not responsible for any inaccuracies herein contained. No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. Unless otherwise indicated in the documentation (metadata) for individual data sets, information on this site is public domain and may be copied without permission; citation of the source is appreciated.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.original.zip</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI Shapefile (shp)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.shp</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.gml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>KML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.kml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GeoJSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.geojson</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>JSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.json</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Comma Separated Values (csv)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.csv</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>MS Excel format (xls)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/apps/rgis/datasets/ddbe4f85-6b3b-4081-a53a-0f93f3a51af7/NLCS_Wilderness_Areas_2018.derived.xls</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <custom>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</custom>
+      <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd>20200128</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>

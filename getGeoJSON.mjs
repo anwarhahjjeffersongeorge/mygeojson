@@ -1,4 +1,6 @@
-//sanitize the geojson 
+// 2020 0205 0143-0800
+// Anwar Hahj Jefferson-George
+ 
 import { join, format } from 'path'
 import { promises as fsp } from 'fs' 
 
@@ -8,6 +10,7 @@ const defaults = {
   geojsonsrcfile: 'nps_boundary'
 }
 
+// get the geojson we want to sanitize from a file
 export async function getGeoJSON(geojsonsrcfile = defaults.geojsonsrcfile, datasetsubdir = defaults.datasetsubdir) {
   const geojsonpth = join(defaults.geojsondir, datasetsubdir)
   const ext = '.geojson'
@@ -29,6 +32,7 @@ export async function getGeoJSON(geojsonsrcfile = defaults.geojsonsrcfile, datas
       .then(async (fileContents) => {
         json = await JSON.parse(fileContents)
         // console.log(json) //we can enable this to look at the json 
+        console.log(json.features[0])
       })
   } catch (e) {
     // if errors happen here, we don't want to handle them. we 

@@ -14,18 +14,28 @@ export function coordinateFilterer(boundarr, r) {
   }
     
   return ({geometry}, i, arr) => {
-    const {coordinates} = geometry
+    const {type} = geometry
+    let coordinates 
+    if (type === 'Polygon'){
+      coordinates = [geometry.coordinates]
+    } 
+    if (type === 'MultiPolygon') {
+      coordinates = geometry.coordinates
+    }
+    
     let ok = true
     loop1:
     for (var coordset of coordinates) { // there might be multiple coordinates in a set thanks to geojson's multipart geometries
-      // console.log(coordset)
-      for (var pair of coordset) {
-        const num = pair[r]
-        if (!isWithinAnyBounds(num)) {
-          ok = false
-          break loop1 
+      for (var coords of coordset){
+        // console.log(coord)
+        for (var pair of coords) {
+          const num = pair[r]
+          if (!isWithinAnyBounds(num)) {
+            ok = false
+            break loop1 
+          }
         }
-      }
+      }      
     }
     return ok
   }

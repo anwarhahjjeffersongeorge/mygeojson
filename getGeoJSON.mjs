@@ -32,7 +32,7 @@ export async function getGeoJSON(geojsonsrcfile = defaults.geojsonsrcfile, datas
       .then(async (fileContents) => {
         json = await JSON.parse(fileContents)
         // console.log(json) //we can enable this to look at the json 
-        console.log(json.features[0])
+        // console.log(json.features[0])
       })
   } catch (e) {
     // if errors happen here, we don't want to handle them. we 

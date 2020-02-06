@@ -28,19 +28,25 @@ export async function writeGeoJSON(geojson, outname = datestr(new Date()), outdi
   let filehandle = null
   let data = null
   try {
+    console.log('stringifying GeoJSON')
     data = await JSON.stringify(geojson)
+    console.log('opening file')
     await fsp.open(target, 'wx')
       .then(fh => {
         filehandle = fh
         return fh
       })
-      .then(fh => fsp.writeFile(
-        fh, data
-      ))
+      .then(fh => {
+        console.log('writing data to file')
+        return fsp.writeFile(
+          fh, data
+        )
+      })
   } catch (e) {
     throw e
   } finally {
     if (filehandle) {
+      console.log('closing file')
       await filehandle.close()
     }
   }
